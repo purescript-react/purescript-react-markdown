@@ -1,5 +1,5 @@
 # purescript-react-markdown
-
+PureScript FFI bindings for [`react-markdown`](https://github.com/remarkjs/react-markdown). Allows you to render text written in Markdown.
 
 ## Usage
 
