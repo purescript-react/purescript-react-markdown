@@ -1,0 +1,15 @@
+{
+  "name": "purescript-react-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "spago -x test.dhall test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT-0"
+}
