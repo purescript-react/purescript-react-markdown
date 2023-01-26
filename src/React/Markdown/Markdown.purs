@@ -1,10 +1,9 @@
 module React.Markdown where
 
-import Prelude
 import React.Basic.Hooks (ReactComponent)
 
 foreign import data Plugin :: Type
 
 foreign import breaks :: Plugin
 foreign import gfm :: Plugin
-foreign import markdown :: forall props. ReactComponent { plugins :: Array Plugin | props }
+foreign import markdown :: forall props. ReactComponent { remarkPlugins :: Array Plugin | props }
